@@ -2,7 +2,8 @@ import './App.css';
 import { useState } from 'react';
 
 function App() {
-  const [inputCouter, setInputCounter] = useState('')
+  const [inputCouter, setInputCounter] = useState('');
+
   function countWords(str) {
     if (str.trim() === '') {
       return 0;
