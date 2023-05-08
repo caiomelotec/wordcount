@@ -8,7 +8,7 @@ function App() {
     if (str.trim() === '') {
       return 0;
     }
-    let words = str.trim().split(/\s+/);
+    let words = str.trim().split(" ");
 
     return words.length;
   }
